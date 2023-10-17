@@ -5,9 +5,9 @@ This is a guide to building your own Sonic Mania APK for Android. This guide is 
 ## Instructions (Linux)
 
 1. Install dependencies using your package manager if you don't already have it.
-   Debian, Ubuntu and derivatives: `sudo apt install git curl`
-   Fedora, RHEL, CentOS and derivatives: `sudo dnf install git curl`
-   Arch Linux and derivatives: `sudo pacman -S git curl`
+Debian, Ubuntu and derivatives: `sudo apt install git curl`
+Fedora, RHEL, CentOS and derivatives: `sudo dnf install git curl`
+Arch Linux and derivatives: `sudo pacman -S git curl`
   
 2. Install Android Studio from [here](https://developer.android.com/studio) if you don't already have it.
 
