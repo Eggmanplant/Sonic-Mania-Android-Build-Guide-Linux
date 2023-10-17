@@ -5,9 +5,9 @@ This is a guide to building your own Sonic Mania APK for Android. This guide is 
 ## Instructions (Linux)
 
 1. Install dependencies using your package manager if you don't already have it.
-   Debian, Ubuntu and derivatives: sudo apt install git curl
-   Fedora, RHEL, CentOS and derivatives: sudo dnf install git curl
-   Arch Linux and derivatives: sudo pacman -S git curl
+   Debian, Ubuntu and derivatives: `sudo apt install git curl`
+   Fedora, RHEL, CentOS and derivatives: `sudo dnf install git curl`
+   Arch Linux and derivatives: `sudo pacman -S git curl`
   
 2. Install Android Studio from [here](https://developer.android.com/studio) if you don't already have it.
 
@@ -15,7 +15,7 @@ This is a guide to building your own Sonic Mania APK for Android. This guide is 
 
 4. Locate `ManiaAndroidBuildHelper_2.0.sh` and place it somewhere easy-to-access. No specific location is required, but Downloads is recomended, and for other location you must change the path in the "cd" command in the next step.
 
-5. Open an terminal and execute: cd /home/$USER/Downloads && chmod +x ./ManiaAndroidBuildHelper_2.0.sh && bash ./ManiaAndroidBuildHelper_2.0.sh
+5. Open an terminal and execute: `cd /home/$USER/Downloads && chmod +x ./ManiaAndroidBuildHelper_2.0.sh && bash ./ManiaAndroidBuildHelper_2.0.sh`
 
 6. Once the script says `SETUP COMPLETE`, open Android Studio. Click `File` in the navigation bar at the top, click `Open`, navigate to `/home/username/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5/android` (replacing 'username' with whatever your user folder is called) and click `OK`. Android Studio will then run some automatic actions in the background to import the project.
 
