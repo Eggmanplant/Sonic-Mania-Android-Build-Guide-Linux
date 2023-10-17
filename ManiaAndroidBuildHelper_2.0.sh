@@ -15,10 +15,10 @@ echo Cloning done.
 clear
 
 cd ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5/dependencies/android
-curl -L http://downloads.xiph.org/releases/theora/libtheora-1.1.1.zip --output libtheora.ZIP
-curl -L http://downloads.xiph.org/releases/ogg/libogg-1.3.5.zip --output libogg.ZIP
-unzip libtheora.ZIP
-unzip libogg.ZIP
+curl -L http://downloads.xiph.org/releases/theora/libtheora-1.1.1.zip --output libtheora.zip
+curl -L http://downloads.xiph.org/releases/ogg/libogg-1.3.5.zip --output libogg.zip
+unzip libtheora.zip
+unzip libogg.zip
 mv libtheora-1.1.1 libtheora
 mv libogg patches
 mv libogg-1.3.5 libogg
@@ -26,6 +26,7 @@ cd libogg
 cp -rf ../patches/* .
 cd ..
 rm *.zip
+rm -rf ./patches
 echo Dependencies done.
 
 cp -rf ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5/dependencies/android/libogg ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5/dependencies/windows/libogg
