@@ -17,7 +17,6 @@ clear
 cd ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5/dependencies/android
 curl -L http://downloads.xiph.org/releases/theora/libtheora-1.1.1.zip --output libtheora.zip
 curl -L http://downloads.xiph.org/releases/ogg/libogg-1.3.5.zip --output libogg.zip
-mv *.ZIP *.zip
 unzip libtheora.zip
 unzip libogg.zip
 mv libtheora-1.1.1 libtheora
