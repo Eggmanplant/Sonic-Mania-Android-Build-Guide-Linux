@@ -11,7 +11,7 @@ Arch Linux and derivatives (Make sure to enable the extra repo): `sudo pacman -S
 
 3. Install Android Studio from [here](https://developer.android.com/studio) if you don't already have it.
 
-4. Download the **Sonic Mania Android Build Helper** script using the terminal: `curl https://raw.githubusercontent.com/SonicGamerEpisode55/Sonic-Mania-Android-Build-Guide-Linux/main/ManiaAndroidBuildHelper_2.0.sh | bash`
+4. Download the **Sonic Mania Android Build Helper** script using the terminal: `curl https://raw.githubusercontent.com/Eggmanplant/Sonic-Mania-Android-Build-Guide-Linux/main/ManiaAndroidBuildHelper_2.0.sh | bash`
 
 5. Once the script says `SETUP COMPLETE`, open Android Studio. Click `File` in the navigation bar at the top, click `Open`, navigate to `/home/username/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5/android` (replacing 'username' with whatever your user folder is called) and click `OK`. Android Studio will then run some automatic actions in the background to import the project.
 
