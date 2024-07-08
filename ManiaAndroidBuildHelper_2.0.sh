@@ -7,10 +7,10 @@ echo ""
 echo "Before continuing, please consult the guide at https://github.com/MisterSheeple/Sonic-Mania-Android-Build-Guide/"
 echo ""
 
-git clone https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation.git ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation
-git clone https://github.com/Rubberduckycooly/RSDKv5-Example-Mods.git ~/Sonic-Mania-Android-Sheeple/RSDKv5-Example-Mods
-git clone https://github.com/Rubberduckycooly/GameAPI.git ~/Sonic-Mania-Android-Sheeple/GameAPI
-git clone https://github.com/Rubberduckycooly/RSDKv5-Decompilation.git ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5 --recursive
+git clone https://github.com/RSDKModding/Sonic-Mania-Decompilation.git ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation
+git clone https://github.com/RSDKModding/RSDKv5-Example-Mods.git ~/Sonic-Mania-Android-Sheeple/RSDKv5-Example-Mods
+git clone https://github.com/RSDKModding/RSDKv5-GameAPI.git ~/Sonic-Mania-Android-Sheeple/GameAPI
+git clone https://github.com/RSDKModding/RSDKv5-Decompilation.git ~/Sonic-Mania-Android-Sheeple/Sonic-Mania-Decompilation/dependencies/RSDKv5 --recursive
 echo Cloning done.
 clear
 
