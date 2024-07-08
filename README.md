@@ -1,13 +1,14 @@
 # Sonic Mania Decompilation: Android Build Guide
 
-This is a guide to building your own Sonic Mania APK for Android. This guide is currently intended for Linux users only.
+This is a guide to building your own Sonic Mania APK for Android. This guide is currently intended for Linux users, and may also run on Mac OS.
 
 ## Instructions (Linux)
 
 1. Install dependencies using your package manager if you don't already have it.  
-Debian, Ubuntu and derivatives: `sudo apt install git curl unzip bash`  
-Fedora, RHEL, CentOS and derivatives: `sudo dnf install git curl unzip bash`  
-Arch Linux and derivatives (Make sure to enable the extra repo): `sudo pacman -S git curl unzip bash`  
+Debian, Ubuntu and derivatives: `sudo apt install git curl unzip bash`\
+Fedora, RHEL, CentOS and derivatives: `sudo dnf install git curl unzip bash`\
+Arch Linux and derivatives (Make sure to enable the extra repo): `sudo pacman -S git curl unzip bash`\
+Mac OS (currently untested) (requires homebrew): `brew install git unzip bash`
 
 3. Install Android Studio from [here](https://developer.android.com/studio) if you don't already have it.
 
