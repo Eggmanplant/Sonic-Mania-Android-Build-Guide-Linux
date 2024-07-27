@@ -2,7 +2,7 @@
 
 This is a guide to building your own Sonic Mania APK for Android. This guide is currently intended for Linux users, and may also run on macOS.
 
-## Instructions (Linux)
+## Instructions (Linux/macOS)
 
 1. Install dependencies using your package manager if you don't already have it.  
 Debian, Ubuntu and derivatives: `sudo apt install git curl unzip bash`\
